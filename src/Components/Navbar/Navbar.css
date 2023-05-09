@@ -1,0 +1,54 @@
+.nav{
+    /* position: sticky; */
+    top:0;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.nav-container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 70px;
+    color: #fff;
+}
+.nav-logo{
+    border: 5px solid rosybrown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-color: gray;
+    cursor: pointer;
+}
+.nav-content{
+    gap: 30px;
+}
+.nav-list{
+    border: 2px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    background-color: gray;
+    cursor: pointer;
+}
+.nav-track{
+    border: 2px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    background-color: gray;
+    cursor: pointer;
+}
+.nav-list.selected,
+.nav-track.selected {
+  border: 5px solid black;
+}

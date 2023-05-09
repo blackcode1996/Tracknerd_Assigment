@@ -1,0 +1,35 @@
+.breedbox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: grab;
+  cursor: -moz-grab;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.breedbox::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}
+.mainbox {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 40px;
+    height: 160px;
+    width: 160px;
+}
+.text{
+    height: 100px;
+    width: 100px;
+}
+.mainbox.selected {
+  border: 5px solid black;
+}
