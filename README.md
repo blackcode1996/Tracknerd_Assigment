@@ -29,8 +29,17 @@
 ## :accessibility: How to run it into your local system:
 
 - At first do git clone of this repositary
+```
+git clone https://github.com/blackcode1996/Tracknerd_Assigment.git
+```
 - After cloning it into your local system install all node modules using (npm i --force)
+```
+npm i --force
+```
 - At last run the command (npm start)
+```
+npm start
+```
 
 ## 🏛️Features:
 
